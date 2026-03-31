@@ -67,7 +67,9 @@ def evaluate_model(model, X_test, y_test):
 
 
 def make_prediction(model, size, bedrooms, age):
-    new_data = [[size, bedrooms, age]]
+    new_data = pd.DataFrame([[size, bedrooms, age]],
+                            columns=['GrLivArea', 'BedroomAbvGr', 'Age'])
+
     prediction = model.predict(new_data)
     print(f"\n--- Prediction ---")
     print(
