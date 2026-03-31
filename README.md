@@ -17,3 +17,7 @@
   ` uv run src/main.py`
 
 ### Expected results
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e6c2ffbc-bd77-4b39-86ab-18329f0fa825" />
+
+<img width="885" height="599" alt="image" src="https://github.com/user-attachments/assets/8d421d82-ebca-42e3-b72f-b016b70f3b6f" />
+
