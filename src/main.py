@@ -7,7 +7,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 def load_data(file_path):
-    """Check if dataset exists in provided path"""
     try:
         df = pd.read_csv(file_path)
         print(f"Successfully loaded {file_path}")
